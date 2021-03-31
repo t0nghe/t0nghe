@@ -6,16 +6,36 @@ My name is Tonghe Wang. I obtained MA in Computational Linguistics/Language Tech
 
 ### React
 
-*Random Quote*
+After learning HTML, CSS and vanilla JavaScript, I learned ReactJS and here are some of showcase projects.
 
-<img src="./images/profile_random_haiku.png" width="600px">
+*Pomodoro Timer*
 
-In addition:
+<img src="./images/profile_pomo_timer.png" width="250px">
 
-* I've finished Coursera course *[Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning)* ([certificate](https://www.coursera.org/account/accomplishments/verify/FRE6BU2SZVGX)).
-* I learn about and practice algorithms and data structures by solving LeetCode challenges in Python and JavaScript/TypeScript  ([here are my solutions](https://github.com/t0nghe/learning/tree/master/LeetCode)).
 
-## Courses I Took Within Curriculum
+
+*Calculator*
+
+<img src="./images/profile_calculator.png" width="350px">
+
+Hello.
+
+Hello. 
+
+̦*Random Quote*
+
+Hello.
+
+<img src="./images/profile_random_haiku.png" width="800px">
+
+Hello.
+
+### In addition:
+
+* I finished Coursera course *[Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning)* ([certificate](https://www.coursera.org/account/accomplishments/verify/FRE6BU2SZVGX)).
+* I refresh my knowledge on algorithms and data structures by solving LeetCode challenges in Python and JavaScript/TypeScript  ([here are my solutions](https://github.com/t0nghe/learning/tree/master/LeetCode)).
+
+## Courses Within Curriculum
 
 *Course name (credits, grade)*
 
@@ -31,7 +51,7 @@ In addition:
 * Natural Language Processing (15, G)
 * Syntactic Parsing (7.5, G)
 
-## Assignments and Projects
+## Assignments and Projects Within Curriculum
 
 **Master's Thesis**
 
