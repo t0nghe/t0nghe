@@ -6,7 +6,9 @@ My name is Tonghe Wang. I obtained MA in Computational Linguistics/Language Tech
 
 ### React
 
+*Random Quote*
 
+<img src="./images/profile_random_haiku.png" width="600px">
 
 In addition:
 
