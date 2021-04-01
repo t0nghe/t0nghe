@@ -6,29 +6,39 @@ My name is Tonghe Wang. I obtained MA in Computational Linguistics/Language Tech
 
 ### React
 
-After learning HTML, CSS and vanilla JavaScript, I learned ReactJS and here are some of showcase projects.
+*Calculator*
+
+<img src="./images/profile_calculator.png" width="350px">
+
+This web app is made with React and plain CSS. Source code and live demo are [available on CodePen](https://codepen.io/tonghe-wang/pen/RwovQBG). 
+
+Specifically, the display fields and buttons are arranged using a grid. The calculator is implemented inside the `Calculator` component.
+
+The expression to evaluate (`evalString`) and the current token (either a number or an operator) (`currentToken`) are kept in the component state. 
+
+All clicking events are handled with `buttonClick` method. Clicked digits and the decimal point are put together as a token. Individual operators are treated as tokens too. When a token is input, it is attached to `evalString`. When the equals sign is clicked, the `evalString` is evaluated and the result is shown.
+
+To make the if statements less confusing, a separate button is used to toggle negative and positive, leaving only subtraction to the minus button.
 
 *Pomodoro Timer*
 
 <img src="./images/profile_pomo_timer.png" width="250px">
 
+This web app is made with React and plain CSS. Souce code and live demo are [available on CodePen](https://codepen.io/tonghe-wang/pen/wvoLgvM).
 
+This app consists of two components. `PomoTimer` maintains all states. All buttons, input fields, tomato and keyboard icons, and time left are nested in this component to avoid having to pass props and functions around.
 
-*Calculator*
+An internal variable in `PomoTimer` is used to set the interval for a function that updates elapsed seconds. When the start/pause button is clicked or the timer runs out, the interval is cleared. 
 
-<img src="./images/profile_calculator.png" width="350px">
+Color and percentage are passed to the `Dial` component as props. This component shows the progression of a work session or a break. It is made with CSS thanks to the help of [this post on StackOverflow](https://stackoverflow.com/questions/62924550/creating-a-static-pie-chart-with-css/62924929#62924929).
 
-Hello.
-
-Hello. 
-
-̦*Random Quote*
-
-Hello.
+*Random Haiku*
 
 <img src="./images/profile_random_haiku.png" width="800px">
 
-Hello.
+Made with React, CSS and [Font Awesome](https://fontawesome.com/). The text of the haiku is shown in component `HaikuDisplay`. A randomizer function is passed to `HaikuDisplay` from its parent component `Wrapper`. The function is triggered by the onClick event. 
+
+Background photos are free-to-use images from Unsplash and Pexels. Due credits are given. Haikus in Japanese and Swedish are selected from from *[Aprilsnö 四月の雪](https://biblioteket.stockholm.se/titel/491325)* (Falkman et al., 2000).
 
 ### In addition:
 
