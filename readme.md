@@ -36,7 +36,7 @@ Color and percentage are passed to the `Dial` component as props. This component
 
 <img src="./images/profile_random_haiku.png" width="800px">
 
-Made with React, CSS and [Font Awesome](https://fontawesome.com/). The text of the haiku is shown in component `HaikuDisplay`. A randomizer function is passed to `HaikuDisplay` from its parent component `Wrapper`. The function is triggered by the onClick event. 
+Made with React, CSS and [Font Awesome](https://fontawesome.com/). Source code and live demo [available on CodePen](https://codepen.io/tonghe-wang/pen/YzpzzxZ). The text of the haiku is shown in component `HaikuDisplay`. A randomizer function is passed to `HaikuDisplay` from its parent component `Wrapper`. The function is triggered by the onClick event. 
 
 Background photos are free-to-use images from Unsplash and Pexels. Due credits are given. Haikus in Japanese and Swedish are selected from from *[Aprilsnö 四月の雪](https://biblioteket.stockholm.se/titel/491325)* (Falkman et al., 2000).
 
